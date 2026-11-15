@@ -31,7 +31,3 @@ The full findings are in [REPORT.md](REPORT.md).
 ## Note on data
 
 The raw API result files (`result_*.json`) that the scripts write are excluded from this repository via `.gitignore`.
-
-## Authorship
-
-Scripts were written with an AI assistant (Claude). I ran them on my account and reviewed the results.
