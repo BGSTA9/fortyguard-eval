@@ -8,7 +8,7 @@ The three products are fast, predictable and easy to start with, and the API's i
 
 ## How I evaluated:
 
-Phoenix, AZ, for 15 July 2025 (15:00 and 22:00) and 20 January 2022 (the demo day). I compared downtown, an irrigated park and the airport, used Open-Meteo as an independent check, sent 17 invalid requests to the API, generated a heatmap in the Dashboard, and tested the MCP in Claude Code. I used AI tools to help script and run parts of the testing; the interpretation and conclusions are mine. Code: <GitHub link>
+Phoenix, AZ, for 15 July 2025 (15:00 and 22:00) and 20 January 2022 (the demo day). I compared downtown, an irrigated park and the airport, used Open-Meteo as an independent check, sent 17 invalid requests to the API, generated a heatmap in the Dashboard, and tested the MCP in Claude Code. I used AI tools to help script and run parts of the testing; the interpretation and conclusions are mine. Code: https://github.com/BGSTA9/fortyguard-evaluation
 
 ## UX and UI
 
