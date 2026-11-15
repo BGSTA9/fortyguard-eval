@@ -6,7 +6,7 @@ This repository contains my evaluation of the FortyGuard Temperature Dashboard, 
 
 | Script | What it does |
 | --- | --- |
-| `fortyguard_eval.py` | Requests 100 m and 20 m heatmaps, reads the temperature at three test points (downtown, an irrigated park and the airport) and compares them with Open-Meteo. |
+| `fortyguard_eval.py` | Requests 100 m and 20 m heatmaps, reads the temperature at three test points (downtown, an irrigated park and the airport) and compares them with Open-Meteo. Takes an optional hour argument, such as `22:00` (default `15:00`). |
 | `dashboard_compare.py` | Requests the Dashboard demo day (20 January 2022) from the API so it can be compared with the demo heatmap. |
 | `error_tests.py` | Sends 17 invalid requests to test the API's input validation and error responses. |
 
@@ -17,7 +17,7 @@ This repository contains my evaluation of the FortyGuard Temperature Dashboard, 
 ```bash
 export FORTYGUARD_API_KEY='your-key'
 pip install requests
-python3 fortyguard_eval.py        # optional: python3 fortyguard_eval.py 22:00
+python3 fortyguard_eval.py        # or: python3 fortyguard_eval.py 22:00
 python3 dashboard_compare.py
 python3 error_tests.py
 ```
@@ -31,3 +31,7 @@ The full findings are in [REPORT.md](REPORT.md).
 ## Note on data
 
 The raw API result files (`result_*.json`) that the scripts write are excluded from this repository via `.gitignore`.
+
+## Authorship
+
+Scripts were written with an AI assistant (Claude). I ran them on my account and reviewed the results.
